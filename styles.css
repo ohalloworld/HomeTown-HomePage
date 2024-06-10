@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Playfair Display', sans-serif;
+    color: #01201c;
+}
+
+#hero-section {
+    height: 40vh;
+    background: no-repeat url("./images/sydneyskyline.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.text {
+    font-family: 'Kanit';
+    font-weight: 400;
+}
+
+#title, #subheading {
+    background:#f4f2ee;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#title {
+    font-size: 40px;
+}
+
+#subheading {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.activity-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 6px solid #478c87;
+}
+
+#activities-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 10px 10px 30px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.activity {
+    margin: 10px;
+}
+
+.description {
+    max-width: 300px;
+}
+
+#guide-section {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #01201c;
+    background: #d1dce5;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#guide-img {
+    width: 300px;
+    border-radius: 20px;
+    margin: 20px 10px 20px 10px;
+}
+
+#guide-text {
+    padding: 0 5px 0 20px;
+}
+
+#guide-quote {
+    font-style: italic;
+}
+
+#guide-title {
+    text-decoration: underline;
+}
